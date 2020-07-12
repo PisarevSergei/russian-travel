@@ -1,0 +1,14 @@
+*{
+    outline-width: 1px;
+    outline-style: solid;
+    outline-color: red;
+  }
+.page {
+ background-color: #2a2c2f;
+ min-width: 320px;
+ max-width: 1280px;
+ color: #ffffff;
+ min-width: 320px;
+ max-width: 1280px;
+ margin: 0 auto;
+}
