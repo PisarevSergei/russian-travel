@@ -1,3 +1,10 @@
 .header__links-container {
     margin-bottom: 5px;
 }
+
+@media screen and (max-width: 320px) { 
+
+    .header__link-container {
+        margin-bottom: 2px;
+    }
+    }

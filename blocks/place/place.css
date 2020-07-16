@@ -5,3 +5,59 @@
 @import url(../place/__title/place__title.css);
 @import url(../place/__url-heading/place__url-heading.css);
 @import url(../place/__website/place__website.css);
+
+.place {
+    display: grid;
+    grid-template-columns: 460px 1fr;
+    grid-gap: 40px;
+    margin-bottom: 80px;
+}
+
+.place:last-of-type {
+    margin-bottom: 0;
+}
+
+@media screen and (max-width: 1024px) {
+    .place {
+      grid-column-gap: 32px;
+      grid-template-columns: 440px 1fr;
+      padding-left: 48px;
+      padding-right: 48px;
+      margin: 0;
+    }
+  }
+
+  @media screen and (max-width: 780px) {
+    .place {
+        grid-gap: 28px;
+        margin-bottom: 72px;
+        grid-template-columns: 340px 1fr;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+}
+
+
+  @media screen and (max-width: 630px) {
+    .place {
+    grid-template-columns: 1fr;
+    }
+
+}
+
+  
+  @media screen and (max-width: 425px) {
+    .place {
+      margin-bottom: 64px;
+      grid-row-gap: 40px;
+    }
+  }
+  
+  @media screen and (max-width: 320px) {
+    .place {
+      grid-template-columns: 1fr;
+      margin-bottom: 48px;
+      grid-row-gap: 32px;
+      padding: 0;
+    }
+  }
