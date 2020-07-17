@@ -14,10 +14,20 @@
     }
   }
   
+
   @media screen and (max-width: 768px) {
     .photo-grid__list {
       grid-gap: 16px;
       max-width: 720px;
+      padding: 0 24px;
+    }
+  }
+
+
+  
+  @media screen and (max-width: 744px) {
+    .photo-grid__list {
+      grid-template-columns: repeat(2, 1fr);
     }
   }
 
@@ -32,5 +42,6 @@
     .photo-grid__list {
       grid-gap: 12px;
       max-width: 288px;
+      padding: 0;
     }
   }

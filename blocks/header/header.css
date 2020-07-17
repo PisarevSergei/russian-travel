@@ -34,5 +34,7 @@
       padding-right: 16px;
       max-width: 288px;
       margin-top: 16px;
+      padding-top: 0;
+      padding-bottom: 0;
     }
   }
