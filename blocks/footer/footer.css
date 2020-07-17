@@ -2,7 +2,6 @@
 @import url(../footer/__item/footer__item.css);
 @import url(../footer/__link/footer__link.css);
 @import url(../footer/__links/footer__links.css);
-@import url(../footer/__menu/footer__menu.css);
 .footer {
     max-width: 1184px;
     margin: 0 auto;

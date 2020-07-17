@@ -17,12 +17,14 @@ font-weight: normal;
   @media screen and (max-width: 560px) {
     .lead__subtitle {
       font-size: 24px;
+      line-height: 28px; 
     }
   }
   
   @media screen and (max-width: 425px) {
     .lead__subtitle {
       font-size: 16px;
+      line-height: 20px; 
       margin: 16px auto 40px;
     }
   }

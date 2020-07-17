@@ -11,8 +11,9 @@ min-width: 100%;
 width: 100%;
 min-height: 740px;
 transition: background-color .5s linear;
+z-index: 1;
 }
-
+/*  Спасибо за проверку:)  */
 .cover__background::before {
 content: '';
 background-color: #2a2c2f;
@@ -24,11 +25,10 @@ right: 0;
 max-width: 100%;
 min-height: 100%;
 position: absolute;
-z-index: 1;
+z-index: -1;
 }
 
-.cover__background:hover {
-background-color: #2a2c2f;
+.cover__background:hover::before {
 opacity: 0.8;
 }
 
