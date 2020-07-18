@@ -19,7 +19,6 @@
     .photo-grid__list {
       grid-gap: 16px;
       max-width: 720px;
-      padding: 0 24px;
     }
   }
 
@@ -42,6 +41,5 @@
     .photo-grid__list {
       grid-gap: 12px;
       max-width: 288px;
-      padding: 0;
     }
   }
